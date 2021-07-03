@@ -15,7 +15,7 @@ files=`git diff --name-only /Users/rfall/DEsktop/hook-testing`
 for file in $files; do
   echo $file
 
-  if grep -q -l -e '|passwd' $file; then
+  if grep -q -l -e 'passwd' $file; then
     echo "found pattern in" $file
   fi
 done

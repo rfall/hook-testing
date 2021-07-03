@@ -1,3 +1,3 @@
 # hook-testing
 # hook-testing2
-# passwd
+passwd=sss
